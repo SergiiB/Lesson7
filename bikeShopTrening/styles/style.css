@@ -250,7 +250,11 @@ section {
 
 .bicycle-card {
     border: 1px solid #9093C4;
-    
+    margin-left: -1px;
+}
+
+.bicycle-card:first-child {
+    margin-left: 1px;
 }
 
 .bike-photo {
@@ -414,10 +418,45 @@ section {
         height: 210px;
     }
     .slogan {
-        font-size: 1.5em;
+        font-size: 0.75em;
     }
     .content h1 {
-        font-size: 5em;
+        font-size: 3em;
+    }
+    .bicycle-card {
+        margin: 1px;
+    }
+    .littleBaner {
+        display: none;
+    }
+    .litBaner {
+        padding: 30px;
+    }
+    .content p {
+        font-size: 4em;
+        margin-top: 20px;
+    }
+    .content h3 {
+        font-size: 0.65em;
+    }
+    .btn-shopping {
+        padding: 5px 10px;
+        font-size: 0.55em;   
+    }
+    .contentBike1 {
+        height: 190px;
+    }
+    .content {
+        height: 190px;
+    }
+    .baner {
+        height: 110px;
+    }
+    .baner .btn-shop {
+        font-size: 0.55em;
+    }
+    .footer {
+        font-size: 0.75em;
     }
 }
 
@@ -458,6 +497,13 @@ section {
     }
     .littleBaner {
         margin-top: -7%;
+    }
+    .bicycle-card:nth-child(3) {
+        margin-left: 1px;
+        margin-top: -1px;
+    }
+    .bicycle-card:nth-child(4) {
+        margin-top: -1px;
     }
 }
 
@@ -551,3 +597,9 @@ section {
   }
 }
 
+@media (max-width: 576px) {
+  .page-wrapper {
+    width: 290px;
+    max-width: 100%;
+  }
+}
